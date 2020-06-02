@@ -1,0 +1,12 @@
+.companyHistory-page {
+    @include page;
+    height: 630px;
+}
+
+.companyHistory {
+    background-color: red;
+    height: 701px;
+    z-index: 10;
+    transform: translateY(-72px);
+    position: absolute;
+}

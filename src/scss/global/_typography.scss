@@ -29,6 +29,12 @@
     align-items: center;
 }
 
+@mixin center_fs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 @mixin padding {
     padding: 0 20px 0 20px;
 }

@@ -1,0 +1,47 @@
+.title {
+    @include page;
+    @include center_column;
+    &-about {
+        height: 207px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        &__smallText {
+            @include textNormalSmall_lh19;
+            color: $blackLight;
+        }
+        &__bigText {
+            @include textLargeExtra;
+            color: $pink;
+        }
+    }
+    &-breadCrumbs {
+        height: 64px;
+        @include center_fs;
+    }
+    &-mainMission {
+        width: 100%;
+        height: 227px;
+        @include center;
+        &__description {
+            @include center_column;
+            min-height: 158px;
+            width: 694px;
+        }
+        &__h1 {
+            @include textLarge;
+            color: $blackLight;
+        }
+        &__text {
+            @include textNormal_lh28;
+            color: $blackLight;
+        }
+    }
+}
+
+.breadCrumb {
+    @include textSmallExtra;
+    color: $gray;
+    padding: 0 5px 0 0;
+}

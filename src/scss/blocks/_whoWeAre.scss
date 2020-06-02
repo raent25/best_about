@@ -1,0 +1,58 @@
+.whoWeAre-page {
+    @include page;
+    height: 361px;
+    background-color: transparent;
+}
+
+.whoWeAre-backgroundColorBlock {
+    background-color: $pink;
+    width: 831px;
+    height: 290px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.whoWeAre {
+    height: 361px;
+    @include center_column;
+    align-items: flex-start;
+    color: white;
+    background-color: transparent;
+    z-index: 2;
+    &__title {
+        @include textLargeExtra;
+        color: $pink;
+    }
+    &__description {
+        height: 290px;
+        width: 730px;
+        @include center_fs;
+        flex-wrap: wrap;
+    }
+    &__text {
+        @include textNormal_lh25;
+    }
+    &__items {
+        width: 730px;
+        @include center_sb;
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        min-width: 120px;
+        max-width: 158px;
+        height: 100%;
+        &__title {
+            @include textLargeSmall;
+        }
+        &__text {
+            @include textNormal_lh21;
+            font-weight: normal;
+        }
+    }
+}

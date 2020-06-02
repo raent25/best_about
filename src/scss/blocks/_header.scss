@@ -6,19 +6,19 @@
     &-upper {
         @include center_sb;
         border-bottom: 1px solid #f2f2f2;
+        width: 100%;
     }
     &-lower {
         @include center_sb;
         background-color: green;
         height: 82px;
+        width: 100%;
     }
 }
 
 .nav-secondary {
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    @include center_fs;
     &__link {
         height: 40px;
         padding: 0 20px 0 20px;
@@ -27,8 +27,13 @@
         @include center;
         font-weight: normal;
         color: $gray;
-        &:hover {
-            border-bottom: 2px solid $pink;
+        transform: translateX(-20px);
+        p {
+            height: 40px;
+            @include center;
+            &:hover {
+                border-bottom: 2px solid $pink;
+            }
         }
     }
 }

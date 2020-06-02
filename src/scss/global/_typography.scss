@@ -1,0 +1,107 @@
+@mixin textLargeExtra {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $fs40;
+    line-height: $lh47;
+}
+
+@mixin textLarge {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $fs35;
+    line-height: $lh41;
+}
+
+@mixin textLargeSmall {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $fs30;
+    line-height: $lh35;
+}
+
+@mixin textMediumExtra {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $fs25;
+    line-height: $lh29;
+}
+
+@mixin textMedium {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $fs20;
+    line-height: $lh23;
+}
+
+@mixin textNormal_lh28 {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $fs18;
+    line-height: $lh28;
+}
+
+@mixin textNormal_lh25 {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $fs18;
+    line-height: $lh25;
+}
+
+@mixin textNormal_lh21 {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $fs18;
+    line-height: $lh21;
+}
+
+@mixin textNormalSmall_lh25 {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $fs16;
+    line-height: $lh25;
+}
+
+@mixin textNormalSmall_lh19 {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $fs16;
+    line-height: $lh19;
+}
+
+@mixin textSmall {
+    font-family: $roboto;
+    font-style: normal;
+    font-size: $fs14;
+    line-height: $lh16;
+}
+
+@mixin textSmallMedium {
+    font-family: $roboto;
+    font-style: normal;
+    font-size: $fs13;
+    line-height: $lh15;
+}
+
+@mixin textSmallExtra {
+    font-family: $roboto;
+    font-style: normal;
+    font-size: $fs12;
+    line-height: $lh14;
+}
+
+@mixin textLeast {
+    font-family: $roboto;
+    font-style: normal;
+    font-size: $fs10;
+    line-height: $lh12;
+}

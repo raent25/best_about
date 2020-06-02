@@ -5,12 +5,12 @@ $fontName: ("Roboto-Regular");
 @each $font in $fontName {
     @font-face {
         font-family: "#{$font}";
-        src: url("../fonts/#{$font}/#{$font}.eot");
+        src: url("../fonts/#{$font}.eot");
         /* IE9 Compat Modes */
-        src: url("../fonts/#{$font}/#{$font}.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/#{$font}/#{$font}.woff") format("woff"),
-        url("../fonts/#{$font}/#{$font}.ttf") format("truetype"),
-        url("../fonts/#{$font}/#{$font}.svg#svg#{$font}") format("svg");
+        src: url("../fonts/#{$font}.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/#{$font}.woff") format("woff"),
+        url("../fonts/#{$font}.ttf") format("truetype"),
+        url("../fonts/#{$font}.svg#svg#{$font}") format("svg");
         /* Legacy iOS */
         font-weight: normal;
         font-style: normal;
